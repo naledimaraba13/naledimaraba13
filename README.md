@@ -1,16 +1,30 @@
-## Hi there 👋
+# 💳 Credit Card Fraud Detection System
 
-<!--
-**naledimaraba13/naledimaraba13** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+##  Overview
+A full-stack AI project that detects fraudulent credit card transactions using machine learning.
 
-Here are some ideas to get you started:
+##  Features
+- Machine Learning model (Random Forest)
+- Flask API for predictions
+- Streamlit UI for interaction
 
-- 🔭 I’m currently working on AI
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Tech Stack
+Python | Scikit-learn | Flask | Streamlit
+
+##  Run Locally
+
+pip install -r requirements.txt  
+
+cd app  
+python train.py  
+python api.py  
+
+cd ../ui  
+streamlit run streamlit_app.py  
+
+##  Use Case
+Designed for fintech companies to detect fraud in real-time.
+
+##  Author
+Naledi Maraba
+
