@@ -1,30 +1,19 @@
-# 💳 Credit Card Fraud Detection System
+# Credit Card Fraud Detection using Machine Learning
 
-##  Overview
-A full-stack AI project that detects fraudulent credit card transactions using machine learning.
+This project focuses on detecting fraudulent credit card transactions using machine learning techniques.
 
-##  Features
-- Machine Learning model (Random Forest)
-- Flask API for predictions
-- Streamlit UI for interaction
+## Project Goals
+- Analyse transaction data
+- Identify fraud patterns
+- Train a machine learning model
+- Evaluate model accuracy
 
-## Tech Stack
-Python | Scikit-learn | Flask | Streamlit
+## Tools Used
+Python
+Pandas
+NumPy
+Scikit-learn
+Data Analysis
 
-##  Run Locally
-
-pip install -r requirements.txt  
-
-cd app  
-python train.py  
-python api.py  
-
-cd ../ui  
-streamlit run streamlit_app.py  
-
-##  Use Case
-Designed for fintech companies to detect fraud in real-time.
-
-##  Author
-Naledi Maraba
-
+## Project Status
+Currently building and improving this project.
